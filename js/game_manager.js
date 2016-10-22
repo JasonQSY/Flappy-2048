@@ -6,8 +6,8 @@ function GameManager(size, InputManager, Actuator, ScoreManager) {
   // hack
   if (!Function.prototype.bind) {
     Function.prototype.bind = function (oThis) {
-      var aArgs = Array.prototype.slice.call(arguments, 1), 
-          fToBind = this, 
+      var aArgs = Array.prototype.slice.call(arguments, 1),
+          fToBind = this,
           fNOP = function () {},
           fBound = function () {
             return fToBind.apply(this instanceof fNOP && oThis
