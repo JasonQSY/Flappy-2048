@@ -4,9 +4,13 @@ Add some elements to show respect to the elder based on [Flappy-2048](https://gi
 
 [Play it!](http://blog.jasonqian.me/Happy-2048/)
 
-## Contributing
+## Contribution
 
-Changes and improvements are more than welcome! Feel free to fork and open a pull request. Please make your changes in a specific branch and request to pull into `gh-pages`! If you can, please make sure the game fully works before sending the PR, as that will help speed up the process.
+The project in currently working in progress. Several features are listed here.
+
+- [x] Change score to `+1s`.
+- [ ] Change bird to tiles with the elder's life story such as `交通大学`, `国家主席`.
+- [ ] Create a progress bar from current story to the next one.
 
 ## License
 
